@@ -1,4 +1,5 @@
 import { FirstComponent } from './components/FirstComponent';
+import { FormsComponent } from './components/FormsComponent';
 // import { SecComponent } from './components/SecComponent';
 // import { ThirComponent } from './components/ThirComponent';
 // import { EventComponent } from './components/EventComponent';
@@ -13,6 +14,7 @@ function App() {
       <main>
         <h2> Hello World en React! </h2>
         <p> No olvides que este es un proyecto de React con Typescript </p>
+        <FormsComponent />
         {/* <SecComponent /> */}
         {/* <ThirComponent nombre='Juan' apellido='Perez' ficha={{edad: 25, sexo: 'M', profesion: 'Programador'}} /> */}
         {/* <EventComponent /> */}

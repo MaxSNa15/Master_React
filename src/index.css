@@ -40,3 +40,59 @@ body {
   gap: 10px;
   padding: 35px 0;
 }
+
+.Forms{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lightgoldenrodyellow;
+  gap: 10px;
+  padding: 35px 0;
+}
+
+.Forms form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Forms fieldset{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 90vw;
+  padding: 35px 15px;
+}
+
+.Forms fieldset input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.Forms fieldset select{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.Forms fieldset textarea{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.Forms input[type="submit"]{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.Forms input[type="submit"]:hover{
+  background: #999;
+}
