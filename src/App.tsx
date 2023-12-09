@@ -3,6 +3,7 @@ import { SecComponent } from './components/SecComponent';
 import { ThirComponent } from './components/ThirComponent';
 import { EventComponent } from './components/EventComponent';
 import { HookComponent } from './components/HookComponent';
+import { HookTestComponent } from './components/HookTestComponent';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <ThirComponent nombre='Juan' apellido='Perez' ficha={{edad: 25, sexo: 'M', profesion: 'Programador'}} />
         <EventComponent />
         <HookComponent />
+        <HookTestComponent />
       </main>
     </>
   );
