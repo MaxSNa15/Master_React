@@ -4,6 +4,18 @@ body {
 
 .Flexi{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: lightblue;
+  gap: 10px;
+}
+
+.Hooks{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: lightgreen;
   gap: 10px;
 }

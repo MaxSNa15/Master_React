@@ -2,9 +2,7 @@ import { FirstComponent } from './components/FirstComponent';
 import { SecComponent } from './components/SecComponent';
 import { ThirComponent } from './components/ThirComponent';
 import { EventComponent } from './components/EventComponent';
-
-
-import './App.css';
+import { HookComponent } from './components/HookComponent';
 
 function App() {
   return (
@@ -15,8 +13,9 @@ function App() {
         <p> No olvides que este es un proyecto de React con Typescript </p>
         <SecComponent />
         <ThirComponent nombre='Juan' apellido='Perez' ficha={{edad: 25, sexo: 'M', profesion: 'Programador'}} />
+        <EventComponent />
+        <HookComponent />
       </main>
-      <EventComponent />
     </>
   );
 }
