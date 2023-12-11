@@ -1,8 +1,8 @@
 import React from 'react';
 import { Routes, Route, Link, BrowserRouter} from 'react-router-dom';
-import { Paginacion1 } from '../components/Paginacion1';
-import { Paginacion2 } from '../components/Paginacion2';
-import { Paginacion3 } from '../components/Paginacion3';
+import { Paginacion1 } from '../components/Pages/Paginacion1';
+import { Paginacion2 } from '../components/Pages/Paginacion2';
+import { Paginacion3 } from '../components/Pages/Paginacion3';
 
 export const RouterPrincipal = () => {
     return (
