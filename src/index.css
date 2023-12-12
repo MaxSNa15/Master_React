@@ -96,3 +96,10 @@ body {
 .Forms input[type="submit"]:hover{
   background: #999;
 }
+
+.activadoss{
+  font-weight: bold;
+  font-size: 18px;
+  color: lightcoral;
+  text-decoration: none;
+}
