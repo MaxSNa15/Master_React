@@ -2,6 +2,7 @@ import { Routes, Route, NavLink, BrowserRouter} from 'react-router-dom';
 import { Paginacion1 } from '../components/Pages/Paginacion1';
 import { Paginacion2 } from '../components/Pages/Paginacion2';
 import { Paginacion3 } from '../components/Pages/Paginacion3';
+import { Paginacion4 } from '../components/Pages/Paginacion4';
 
 export const RouterPrincipal = () => {
     return (
@@ -21,6 +22,9 @@ export const RouterPrincipal = () => {
                     <li>
                         <NavLink className={ ({isActive}) => isActive ? "activadoss" : "" } to='/TRES'>Pagina 3</NavLink>
                     </li>
+                    <li>
+                        <NavLink className={ ({isActive}) => isActive ? "activadoss" : "" } to='/CUATRO/Juan'>Pagina 4</NavLink>
+                    </li>
                 </ul>
             </nav>
             <hr />
@@ -33,6 +37,9 @@ export const RouterPrincipal = () => {
                     <Route path='/UNO' element={<Paginacion1/>} />
                     <Route path='/DOS' element={<Paginacion2/>} />
                     <Route path='/TRES' element={<Paginacion3/>} />
+                    {/* Pasar parametros por URL (nombre) */}
+                    <Route path='/CUATRO/:nombre' element={<Paginacion4/>} />
+
                     {/* Pagina por defecto o si hay un error*/}
                     <Route path='*' element={(
                         <div>
